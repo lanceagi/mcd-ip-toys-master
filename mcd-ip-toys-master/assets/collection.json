@@ -1,0 +1,24 @@
+[
+  {
+    "no": 1,
+    "toy": "麦当劳对讲机",
+    "series": "对讲机",
+    "acquired_at": "2026-10-11",
+    "source": "manual",
+    "store": null,
+    "channel": null,
+    "order_id": null,
+    "note": "限定加价购周边;口述建档,入手日期不详"
+  },
+  {
+    "no": 2,
+    "toy": "麦当劳点单铃",
+    "series": "点单铃",
+    "acquired_at": "2026-10-11",
+    "source": "manual",
+    "store": null,
+    "channel": null,
+    "order_id": null,
+    "note": "限定加价购周边;口述建档,入手日期不详"
+  }
+]

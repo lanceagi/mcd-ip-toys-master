@@ -1,0 +1,6 @@
+__pycache__/
+.intel-snapshot.json
+*.snap.tmp
+*.bak
+.mimosa/
+.DS_Store

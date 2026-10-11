@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "updated": "2026-10-11T01:20:00+08:00",
+  "campaign": "麦当劳 X PEACEMINUSONE(联名复古棒球帽) + 开心乐园餐玩具(海绵宝宝×航海王系列)",
+  "evidence": "campaign-calendar / query-meals / query-meal-detail 真机实测 2026-10-11 01:20(Asia/Shanghai)",
+  "targets": [
+    {
+      "id": "cap",
+      "label": "GD同款联名复古棒球帽(麦当劳 X PEACEMINUSONE)",
+      "kind": "加价购周边",
+      "aliases": ["棒球帽", "复古棒球帽", "联名棒球帽", "PEACEMINUSONE", "GD同款"],
+      "menu_keywords": ["棒球帽", "帽", "PEACEMINUSONE"],
+      "mechanism": "活动原文「GD同款联名复古棒球帽,任意餐品消费加39.9元即可得」。实测该 SKU 不在 query-meals 菜单、不在券四路(2026-10-11 01:20)——加价购入口在麦当劳 APP 下单页/到店,MCP 无对应工具。",
+      "orderable_via_mcp": false
+    },
+    {
+      "id": "happymeal",
+      "label": "开心乐园餐(含本期玩具一轮)",
+      "kind": "套餐",
+      "aliases": ["开心乐园餐", "乐园餐", "儿童套餐", "海绵宝宝", "航海王"],
+      "menu_keywords": ["开心乐园餐"],
+      "toy_round_keywords": ["玩具", "系列玩具"],
+      "mechanism": "玩具是乐园餐套餐内的一个选择轮次(query-meal-detail rounds),下单即随餐附玩具,无需单独抢玩具 SKU。",
+      "orderable_via_mcp": true,
+      "toy_observed": {
+        "date": "2026-10-11 01:22",
+        "store": "1450523",
+        "channel": "到店自取",
+        "round_id": 5,
+        "round_name": "海绵宝宝×航海王系列玩具",
+        "choice_code": "521991",
+        "choices": 1,
+        "note": "仅 1 个选项(随机玩具);多选项期可用 --toy 指定"
+      },
+      "variants_observed": [
+        {"name": "汉堡开心乐园餐", "code": "9900016057", "price": "23.5", "channel": "到店自取", "store": "1450523"},
+        {"name": "鱼排堡开心乐园餐", "code": "9900016058", "price": "24", "channel": "到店自取", "store": "1450523"},
+        {"name": "麦乐鸡开心乐园餐", "code": "9900016056", "price": "25", "channel": "到店自取", "store": "1450523"}
+      ]
+    },
+    {
+      "id": "scarf",
+      "label": "「我就喜欢」限定丝巾(周边第三弹)",
+      "kind": "加价购周边",
+      "aliases": ["丝巾", "限定丝巾"],
+      "menu_keywords": ["丝巾"],
+      "mechanism": "活动原文「任意餐品消费加 39.9 元即可得;10月22日10:45开售」。同棒球帽:MCP 无该 SKU,开售后入口在 APP/到店。",
+      "orderable_via_mcp": false,
+      "drop_time": "2026-10-22 10:45"
+    }
+  ]
+}
